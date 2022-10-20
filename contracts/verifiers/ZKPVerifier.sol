@@ -89,6 +89,7 @@ contract ZKPVerifier is IZKPVerifier, Ownable {
     /**
      * @dev Hook that is called before any proof response submit
      */
+     
     function _beforeProofSubmit(
         uint64 requestId,
         uint256[] memory inputs,
